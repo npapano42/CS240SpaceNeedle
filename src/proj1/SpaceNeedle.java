@@ -2,7 +2,7 @@ package proj1;
 
 public class SpaceNeedle
 {
-    static int scale = 10;
+    static int scale = 7;
     public static void main(String[] args)
     {
         needle();
@@ -84,7 +84,7 @@ public class SpaceNeedle
 
     public static void tower()
     {
-        for (int i = 0; i < 4 * scale; i++)
+        for (int i = 0; i < scale * scale; i++)
         {
             for (int j = 0; j < 2 * scale + 1; j++)
             {
